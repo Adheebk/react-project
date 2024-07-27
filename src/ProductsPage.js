@@ -25,7 +25,7 @@ function ProductsPage() {
           <Link
             to="/"
             className={`text-lg font-bold px-4 py-2 rounded-md ${
-              location.pathname === '/' ? 'bg-blue-700' : 'hover:bg-gray-700'
+             'hover:bg-gray-700'
             } transition-colors duration-300`}
           >
             Home
@@ -34,7 +34,7 @@ function ProductsPage() {
             <Link
               to="/products"
               className={`text-lg px-4 py-2 rounded-md ${
-                location.pathname.startsWith('/products') ? 'bg-blue-700' : 'hover:bg-gray-700'
+                'hover:bg-gray-700'
               } transition-colors duration-300`}
             >
               Products
